@@ -1,9 +1,15 @@
 import React from 'react';
 import {Carousel} from 'react-bootstrap';
-
+import './App.css';
 
 function App() {
   return (
+    <div>
+<div className="upper">
+
+</div>
+    
+    <div>
     <Carousel>
     <Carousel.Item interval={1000}>
       <img
@@ -19,7 +25,7 @@ function App() {
     <Carousel.Item interval={500}>
       <img
         className="d-block w-100"
-        src="nature2.jpg"
+        src="nature4.jpg"
         alt="Third slide"
       />
       <Carousel.Caption>
@@ -30,7 +36,7 @@ function App() {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="nature3.jpg"
+        src="nature5.jpg"
         alt="Third slide"
       />
       <Carousel.Caption>
@@ -39,6 +45,11 @@ function App() {
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>
+  </div>
+  <div className="lower">
+
+  </div>
+  </div>
   );
 }
 
