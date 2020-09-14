@@ -1,12 +1,21 @@
 .upper{
-    height:100px;
+    height:200px;
     background-image:linear-gradient(to right,green,red,blue);
 }
 .lower{
-    height: 100px;
+    height: 200px;
     background-image:linear-gradient(to right,green,red,blue);
 }
-.d-block w-100{
-    width: 100px;
-    height: 50px;
+.bg{
+    background-color:red;
+    justify-content: center;
+    align-items: center;
+    flex:0 1 34rem;
+}
+.image{
+    max-width: 36rem;
+    max-height: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }

@@ -9,11 +9,11 @@ function App() {
 
 </div>
     
-    <div>
+    <div className="bg">
     <Carousel>
     <Carousel.Item interval={1000}>
       <img
-        className="d-block w-100"
+        className="image"
         src="nature1.jpg"
         alt="First slide"
       />
@@ -24,7 +24,7 @@ function App() {
     </Carousel.Item>
     <Carousel.Item interval={500}>
       <img
-        className="d-block w-100"
+        className="image"
         src="nature4.jpg"
         alt="Third slide"
       />
@@ -35,7 +35,7 @@ function App() {
     </Carousel.Item>
     <Carousel.Item>
       <img
-        className="d-block w-100"
+        className="image"
         src="nature5.jpg"
         alt="Third slide"
       />
