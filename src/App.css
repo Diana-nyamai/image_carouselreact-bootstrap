@@ -1,7 +1,12 @@
 .upper{
-    border: 1px solid black;
     height:100px;
+    background-image:linear-gradient(to right,green,red,blue);
 }
 .lower{
     height: 100px;
+    background-image:linear-gradient(to right,green,red,blue);
+}
+.d-block w-100{
+    width: 100px;
+    height: 50px;
 }
