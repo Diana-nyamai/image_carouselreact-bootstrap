@@ -4,9 +4,9 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className="App">
 <div className="upper">
-
+   <h1>IMAGE CAROUSEL</h1>
 </div>
     
     <div className="bg">
@@ -47,7 +47,7 @@ function App() {
   </Carousel>
   </div>
   <div className="lower">
-
+   created by Diana
   </div>
   </div>
   );
