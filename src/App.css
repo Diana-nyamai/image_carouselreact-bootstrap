@@ -9,6 +9,7 @@
     height: 200px;
     background-image:linear-gradient(to right,green,red,blue);
 }
+
 .bg{
     background-color:red;
     justify-content: center;
